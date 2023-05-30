@@ -78,7 +78,6 @@ export function locationStrategy(useHash) {
   imports: [CommonModule],
   declarations: [_UIROUTER_DIRECTIVES],
   exports: [_UIROUTER_DIRECTIVES],
-  entryComponents: [UIView],
 })
 export class UIRouterModule {
   /**
